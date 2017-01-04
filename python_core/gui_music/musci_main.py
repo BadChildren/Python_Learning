@@ -16,6 +16,7 @@ import time
 import threading
 
 def music():
+    '''定义音乐搜索'''
    text = entry.get().encode('utf-8') # 转换为utf-8
    text = urllib.quote(text) # 转换为url的码格式
    if not text:
