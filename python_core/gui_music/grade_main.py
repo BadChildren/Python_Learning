@@ -10,20 +10,15 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
+from Tkinter import *
+import tkMessageBox
 import urllib
 import urllib2
 import re
 import cookielib
-import sys
 import os
 import string
-from Tkinter import *
-import tkMessageBox
-import urllib
-import json
-import mp3play
-import time
-import threading
+
 
 class YJSSpider:
     # 模拟登陆研究生教务系统
